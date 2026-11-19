@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- چیدمان صفحه دوم -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <!-- نام کاربری در گوشه بالا سمت راست -->
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="نام کاربری"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="end" />
+
+    <!-- یه نوشته خوش‌آمدگویی وسط صفحه -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="به صفحه دوم خوش آمدید!"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center" />
+
+</LinearLayout>
